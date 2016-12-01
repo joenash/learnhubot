@@ -10,13 +10,6 @@
 
 module.exports = (robot) ->
 
-	robot.hear /"First pokemon!"/i, (res) ->
-		robot.http("http://pokeapi.co/api/v2/pokemon/1/")
-			.header("header", "application/json")
-			.get() (err, res, body) ->
-				data = JSON.parse body
-					res.send "#{data.name}"
-
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
