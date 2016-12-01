@@ -9,7 +9,7 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
-robot.hear /wahwahwah?/i, (res)
+robot.hear /wah?/i, (res)
   res.send "WAH"
 
 
