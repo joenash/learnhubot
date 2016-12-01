@@ -10,7 +10,9 @@
 
 module.exports = (robot) ->
 
-
+  robot.hear /who rules the world/i, (res) ->
+    res.send "ATHENEXCALIBUR"
+   #i gives the scope of text
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
