@@ -3,3 +3,10 @@ node_js:
 - '0.10'
 notifications:
   email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: aOXYAf0UnwinNC3t3XS0p6G/IlT9lj+j8t6lpQkvAfvm0N3r09XXMKk2n/dYpP50kNgxlrRl9SroN2paB83yDu18galQoPtcpUt9eNzFXNGNvb6xriSue8bIkOJT/O+Nh5eQEIVufymCKCRYWO/FTKl7smUDLkJHDlWTDXmAqrdJ8taZ5LKyAuU6vD9FB95r0Abvr6Tr8XKHpjnREDnlkuiCUVasv11mdG8abAiWt3mnxOTGwDUvqEaNrWA+T1yf8VmC0Lf9XcN42kKYy3hSCD2xJHyrDJFXn0ByipnhOSH6RKHZ+brKr/m2L3FVvlO3Yk6BReW2fxP/4G0hh7js9o/xFmeG6/iRwNBVXwaPc8/aQHG/IgqPr8QsHFTJ5UFc9m+1LKEQ7kEaMQOpHRQXPeja88keV6elu1s84xosl6SuMMAJa2M1TnRR03MQcDNNywkQNmby+5KA4dd+AyYY/WUfyNC2U5I0gXTwaIrMcT7hhaRGk/zE1z0j5XqjqGsykpLvVDGYFP/QVzd7QDOyMONDvVSaymu8ceVnOhpDuMuzrKJJKovG+/OIkbGXuKv2jEM6Tx+OCgtnFSKVz4TCrhktfcfUC2WPwGgH46pwewWLq27uFIpv+CD0M23+vW6jOBk7L+r4MrCUCCSEWkiIGLprputZtkArIROHNFd2Hig=
+  app: mysterious-inlet-62679
+  on:
+    repo: joenash/learnhubot
