@@ -10,8 +10,8 @@
 
 module.exports = (robot) ->
 
-robot.hear /rust/i, (res) ->
-  res.send "rust... DID SOMEONE SAY RUST!?!?"
+  robot.hear /rust/i, (res) ->
+    res.send "rust... DID SOMEONE SAY RUST!?!?"
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
