@@ -10,8 +10,8 @@
 
 module.exports = (robot) ->
 
-robot.hear /Print your name/i, (res) ->
-  res.send "Catbot"
+  robot.hear /Print your name/i, (res) ->
+    res.send "Catbot"
 
 
   # robot.hear /badger/i, (res) ->
