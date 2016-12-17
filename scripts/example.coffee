@@ -11,7 +11,9 @@
 module.exports = (robot) ->
 
   robot.hear /hello joenash/i, (res) ->
-    res.say "Hey there"
+    res.send "Hey there"
+
+
    #i gives the scope of text
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
