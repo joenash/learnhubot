@@ -10,4 +10,4 @@
 
 module.exports = (robot) ->
 robot.hear /hu hu/i, (res) ->
-res.send
+res.send "tu whit, tu who, I am the hu"
