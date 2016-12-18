@@ -5,7 +5,6 @@ const unauthenticatedSpotifyAPI = SpotifyWebApi();
 
 module.exports = (robot) => {
   robot.hear(/spotiphy (.*)/i, (res) => {
-    res.send("HELLO BRIANO");
     const query = res.match[0];
     spotifyApi.searchTracks(query)
       .then(function(data) {
