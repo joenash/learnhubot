@@ -12,5 +12,5 @@ module.exports = (robot) => {
       }, function(err) {
         res.send(":spotify: fail");
       });
-  }
+  });
 }
